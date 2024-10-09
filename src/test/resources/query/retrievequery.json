@@ -1,0 +1,24 @@
+{
+  "query": {
+    "select": [
+      {
+        "field": "FIELD_NAME"
+      }
+    ],
+    "filter": {
+      "filterConditions": {
+        "F1": {
+          "ignorecCase": "true",
+          "lhs": {
+            "field": "PRIMARY_KEY"
+          },
+          "comparator": "EQ",
+          "rhs": {
+            "value": "PRIMARY_KEY_VALUE"
+          }
+        }
+      },
+      "logic": "F1"
+    }
+  }
+}

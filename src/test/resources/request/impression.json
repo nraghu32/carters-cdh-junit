@@ -1,0 +1,15 @@
+{
+  "ContextName": "Customer",
+  "ContainerName": "TopOffers",
+  "Channel": "INSERT_CHANNEL",
+  "Direction": "Inbound",
+  "Placements": "offerCard",
+  "AppID": "PE",
+  "Contexts": [
+    {
+      "Type": "EmailAddress",
+      "Value": "INSERT_EMAIL",
+      "Key": "EmailAddress"
+    }
+  ]
+}
